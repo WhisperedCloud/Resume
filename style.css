@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.resume-container {
+    display: flex;
+    width: 900px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.left-section {
+    background-color: #012d5a;
+    color: white;
+    width: 35%;
+    text-align: center;
+    padding: 20px;
+}
+
+.left-section .profile-image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 20px auto;
+    
+}
+
+.left-section .contact-info {
+    margin-top: 30px;
+    
+}
+
+.left-section h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.left-section p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.right-section{
+    width: 65%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    
+
+.right-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 256px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    
+    
+}
+
+.right-section h2 {
+    font-size: 22px;
+    color:rgb(1, 8, 218);
+    margin-bottom: 30px;
+    margin-left: 240px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+    margin-right:20px ;
+
+}
+.right-section  p{
+    margin-left: 60px;
+    margin-top:  20px;
+}
+.section {
+    margin-bottom: 30px;
+}
+
+.section h3 {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 20px;
+    background-color: rgba(129, 130, 151, 0.775);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 3px;
+    
+
+    
+}
+
+
+.bulleted-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.bulleted-list li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.bulleted-list li::before {
+    content: '•';
+    font-size: 18px;
+    color: #012d5a;
+    position: absolute;
+    left: -20px;
+    top: 0;
+}
